@@ -1,0 +1,22 @@
+name: WebhookTest2
+options:
+  bundleIdPrefix: com.seedinnovate
+  createIntermediateGroups: true
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  WebhookTest2:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+    info:
+      path: Info.plist
+      properties:
+        CFBundleName: WebhookTest2
+        CFBundleIdentifier: com.seedinnovate.webhooktest2
+        UILaunchStoryboardName: LaunchScreen
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
